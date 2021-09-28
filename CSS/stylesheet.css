@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dosis', sans-serif;
+    background-color: #d7dce0;
+}
+.hero{
+    width: 80%;
+    margin: auto;
+    background-color: #d7dce0;
+}
+.navbar{
+    margin: 40px auto;
+    display: flex;
+    align-items: right;
+}
+ul{
+    flex: 1;
+    text-align: center;
+    margin-left: 150px;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #000000;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+    position: relative;
+}
+ul li a::after{
+    content: '';
+    width: 0;
+    height: 10px;
+    background: #0a66c2;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -20px;
+    transition: 0.3s;
+}
+ul li a:hover::after{
+    width: 100%;
+}
+.social-media-icons img{
+    height: 50px;
+    margin-left: 20px;
+    cursor:pointer;
+}
+.Facebook{
+    height: 50px;
+    width: 50px;
+}
+.Instagram{
+    height: 50px;
+    width: 50px;
+}
+.Linkedin{
+    height: 50px;
+    width: 50px;
+}
+.social-media-icons{
+    margin-left: 50px;
+}
+.social-media-icons img:hover{
+    width: 57px;
+    height: 57px;
+}
+.banner{
+    display: flex;
+    margin-top: 50px;
+}
+.mini-logo{
+    width: 110px;
+    height: 110px;
+    margin-top: -10px;
+    margin-left: 0px;
+    border: solid 5px #ffffff;
+    border-radius: 50%;
+}
+.mini-logo:hover{
+    width: 110px;
+    height: 110px;
+    border: solid 5px #0a66c260
+}   
+h1{
+    font-size: 44px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 35px;
+    color: #ffffff;
+    background-color: #0a66c2;
+}
+.lær-mig-at-kende{
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 20px;
+    color: #0a66c2;
+    border: solid 3px #0a66c28c;
+    padding: 5px 8px;
+    background-color: #ffffff;
+}
+.lær-mig-at-kende:hover{
+    font-weight: 900;
+    color: #0a66c2;
+    background-color: #ffffff;
+}
+.lille-header{
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    border: solid 5px #ffffff;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+.header {
+    padding: 40px;
+    text-align: center;
+    background: #0a66c2;
+    margin:0px;
+    font-size:20px;
+    border-top: solid 6px #ffffff;
+    border-bottom: solid 6px #ffffff;
+}
+h3{
+    margin-left: 525px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #0a66c2;
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: #ffffff;
+}
+.om-mig{
+    margin-top: 20px;
+    margin-left: 140px;
+    line-height: 2em;
+    float: left;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #ffffff;
+}
+.forsvaret{
+    float: right;
+    border: solid 5px #0a66c2;
+    border-radius: 15%;
+    margin-right: 260px;
+    margin-top: 25px;
+}
+.fodboldspiller{
+    float: right;
+    border: solid 5px #0a66c2;
+    border-radius: 2%;
+    margin-top: 25px;
+    margin-right: -400px;
+}
+.wolt{
+    float: right;
+    border: solid 5px #0a66c2;
+    border-radius: 15%;
+    margin-top: 230px;
+    margin-right: -230px;
+}
+h4{
+    margin-top: 45px;
+    margin-left: 420px;
+    font-size: 28px;
+    color: #0a66c2;
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: #ffffff;
+}
+p{
+    float:left;
+    margin-left: 140px;
+    margin-top: 25px;
+    line-height: 2em;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #ffffff;
+}
+.mål{
+    float:right;
+    border: solid 5px #0a66c2;
+    border-radius: 10%;
+    margin-right: 100px;
+    margin-top: -65px;
+}
+h5{
+    margin-left: 150px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #0a66c2;
+}
+.cv-links{
+    display: inline-block;
+    margin-top: 20px;
+}
+.wolt-cv{
+    margin-right: 40px;
+}
+.kæret-cv{
+    margin-right: 40px;
+}
+.forsvaret-cv{
+    margin-right: 40px;
+}
+.dfds-cv{
+    margin-right: 40px;
+}
+.tonsser-cv{
+    margin-right: 40px;
+}
+.wolt-logo{
+    margin-left: 200px;
+    margin-right: 105px;
+    margin-bottom: 150px;
+}
+.kæret-logo{
+    margin-right: 80px;
+    margin-bottom: 150px;
+}
+.forsvaret-logo{
+    margin-right: 60px;
+    margin-bottom: 150px;
+}
+.dfds-logo{
+    margin-right: 80px;
+    margin-bottom: 160px;
+}
+.tonsser-logo{
+    margin-right: 60px;
+    margin-bottom: 150px;
+}
+.lomax-logo{
+    margin-bottom: 170px;
+}
+h6{
+    margin-left: 150px;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #0a66c2;
+    margin-top: -80px;
+}
+.download-link{
+    display: inline-block;
+    margin-top: 20px;
+}
